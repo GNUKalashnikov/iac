@@ -8,7 +8,7 @@ This will be my first vagrant free use case of IAC.
 We will be utilising **Ansible**  which is language dedicated to provisioning, configuration management and  application management
 Ansible is written in YMAL to write scripts or *playbooks*
 
-### Asnsible
+### Ansible
 *Reasons to use*:
 - Simple
 - Agentless
