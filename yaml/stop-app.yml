@@ -1,0 +1,12 @@
+#Stop the app
+---
+# Installing a running a the app from my git repo
+
+- hosts: web
+  gather_facts: true
+  become: true
+
+  tasks:
+  - name: Stopping the app
+    command: pm2 stop app
+

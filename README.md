@@ -64,6 +64,15 @@ Syntax
 start a .yml with three `---`
 these is needed like !/bin/bash at the start of a bash script file.
 
+Use:
+`ansible-playbook install_nginx.yml --syntax-check`
+the `--syntax-check` to *check* syntax of the YAML 
+
+## Task
+From previous tasks, utilise the app folder and run it using ansible.
+1. Write a new YAML file
+2. Execute it
+3. Make sure the app is running on port 3000
 
 ## Questions
 
