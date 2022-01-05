@@ -1,0 +1,18 @@
+# My first YAML file to make a nginx provision
+---
+#Which host do we need to install nginx in?
+- hosts: web
+  gather_facts: true
+
+
+#What facts do we want to see while installing?
+#Do we need admin privileges?
+  become: true
+#What task to do we want to perform in this yml file?
+  tasks:
+  - name: Installation of Nginx within the Web agent node
+    apt: pkg=nginx state=present
+    become_user: root
+#What is the end goal for this task?
+
+

@@ -50,6 +50,20 @@ add all the addresses into the group.
 
 `192.168.56.2 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant`
 
+#### Playbook
+*write it once, run it everywhere*
+Written in YAML
+
+Why should we use YAML? Can use it with ansible and used in these tools
+- cloud formation (AWS IAC)
+- Docker compose
+- Kubernetes
+
+## YAML
+Syntax
+start a .yml with three `---`
+these is needed like !/bin/bash at the start of a bash script file.
+
 
 ## Questions
 
