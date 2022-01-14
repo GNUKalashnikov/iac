@@ -20,7 +20,7 @@ Ansible is written in YMAL to write scripts or *playbooks*
 
 *For ubuntu*
 ```bash
-sudo apt-get install software-properties-common && sudo add-repository ppa:ansible/ansible -y && sudo apt-get update -y && sudo apt-get install ansible -y 
+sudo apt-get install software-properties-common && sudo apt-add-repository ppa:ansible/ansible -y && sudo apt-get update -y && sudo apt-get install ansible -y 
 ```
 Physical - 2.7.17 Python version
 Cloud - =>3 Python
